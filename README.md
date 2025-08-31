@@ -3,8 +3,18 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1000&color=00CFFF&center=true&vCenter=true&width=600&lines=🌌+Welcome+to+Pynix;⚡+50+Python+Projects;🚀+Build+Create+Innovate" alt="Typing SVG" />
 </p>
 
-<h1 align="center">🌌 Pynix</h1>
-<p align="center"><i>Aliansi project Python dengan nuansa mitologi & kreativitas tanpa batas.</i></p>
+<!-- GIF di samping judul -->
+<table align="center">
+<tr>
+<td width="200">
+  <img src="dokumen/video.gif" alt="Pynix GIF" style="max-width:200px; height:auto;" />
+</td>
+<td>
+  <h1 align="left">🌌 Pynix</h1>
+  <p><i>Aliansi project Python dengan nuansa mitologi & kreativitas tanpa batas.</i></p>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -58,7 +68,7 @@
 | 33 | Surat Pynix | Kirim email otomatis |
 | 34 | Pynix-MusikDL | Downloader musik API |
 | 35 | Pynix-Catur | Game catur dengan AI lawan |
-| 36 | Pynix-Matematika | Visualisasi fungi matematika |
+| 36 | Pynix-Matematika | Visualisasi fungsi matematika |
 | 37 | Pynix-BeritaBot | Bot berita otomatis |
 | 38 | File Pynix | Berkas penyelenggara |
 | 39 | Pynix-Aman | File locker terenkripsi |
