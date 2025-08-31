@@ -25,7 +25,7 @@ def hitung(expr: str):
  hasil = int(hasil)
 
         return hasil
-    kecuali Pengecualian sebagai e:
+ kecuali Pengecualian sebagai e:
         return kesalahan F"❌: {e}"
 
 
