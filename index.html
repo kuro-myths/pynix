@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pynix – 50 Python Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rocket/Color/rocket_color.svg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --accent: #00CFFF;
+      --text: #f0f6fc;
+      --sub: #8b949e;
+      --green: #238636;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Poppins',sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{color:var(--accent);text-decoration:none}
+    h1,h2,h3{font-family:'Orbitron',sans-serif;font-weight:700}
+    header{
+      text-align:center;
+      padding:4rem 1rem 2rem;
+      background:url("https://www.transparenttextures.com/patterns/stardust.png"),var(--bg);
+    }
+    header h1{font-size:2.5rem;margin-bottom:.5rem}
+    header p{font-size:1.1rem;color:var(--sub)}
+    .badge-group{margin-top:1.2rem;display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap}
+    .badge{
+      background:var(--card);
+      border:1px solid #30363d;
+      padding:.4rem .8rem;
+      border-radius:999px;
+      font-size:.85rem;
+      display:inline-flex;align-items:center;gap:.4rem;
+    }
+    .badge i{color:var(--accent)}
+    .container{max-width:1000px;margin:auto;padding:2rem 1rem}
+
+    /* GIF + Teks */
+    .hero{
+      display:flex;align-items:center;gap:2rem;
+      flex-wrap:wrap;
+      justify-content:center;
+      margin-bottom:3rem;
+    }
+    .hero img{width:200px;border-radius:1rem;box-shadow:0 0 20px rgba(0,207,255,.35)}
+    .hero div{flex:1 1 250px}
+    .hero h2{font-size:2rem;margin-bottom:.5rem}
+    .hero p{color:var(--sub)}
+
+    /* Tabel 50 project */
+    table{width:100%;border-collapse:collapse;margin-top:1.5rem}
+    th,td{padding:.75rem 1rem;text-align:left}
+    th{background:var(--card);color:var(--accent);font-size:.95rem}
+    tr:nth-child(even){background:#0d1117cc}
+    tr:hover{background:#1f2937}
+    td:first-child{font-weight:600;color:var(--accent);width:45px}
+    .tag{
+      display:inline-block;
+      background:#00CFFF22;
+      color:var(--accent);
+      padding:.15rem .5rem;
+      border-radius:4px;
+      font-size:.75rem;
+      margin-left:.4rem;
+    }
+
+    /* Footer */
+    footer{
+      text-align:center;
+      padding:3rem 1rem 2rem;
+      color:var(--sub);
+      font-size:.9rem;
+    }
+
+    /* Responsive */
+    @media(max-width:600px){
+      header h1{font-size:2rem}
+      .hero{flex-direction:column;text-align:center}
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <!-- SVG Typing (bisa tetap pakai raw GitHub svg) -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1000&color=00CFFF&center=true&vCenter=true&width=600&lines= 🌌+Welcome+to+Pynix;⚡+50+Python+Projects;🚀+Build+Create+Innovate" alt="Typing SVG">
+
+  <div class="badge-group">
+    <span class="badge"><i class="fab fa-python"></i> Python 3.10+</span>
+    <span class="badge"><i class="fas fa-code-branch"></i> MIT License</span>
+    <span class="badge"><i class="fas fa-bolt"></i> Status: Active</span>
+  </div>
+</header>
+
+<!-- KONTEN -->
+<div class="container">
+  <!-- GIF + Judul -->
+  <section class="hero">
+    <!-- GANTI src dengan link GIF kamu (upload ke repo & copy raw url) -->
+    <img src="dokumen/video.gif" alt="Pynix GIF">
+    <div>
+      <h2>🌌 Pynix</h2>
+      <p>Aliansi project Python dengan nuansa mitologi & kreativitas tanpa batas. 50 projek dalam 50 hari – mulai dari kalkulator hingga AI mini. Build, Create, Innovate!</p>
+    </div>
+  </section>
+
+  <!-- DAFTAR 50 PROJECT -->
+  <h3 style="margin-bottom:.5rem">📦 Daftar 50 Project</h3>
+  <p style="color:var(--sub);font-size:.95rem;margin-bottom:1rem">Target: <strong>1 Project / Hari</strong> → Jumlah <strong>50 Project Python</strong></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nama Project</th>
+        <th>Deskripsi Singkat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Pynix-Calc <span class="tag">CLI</span></td><td>Kalkulator modern berbasis Python</td></tr>
+      <tr><td>2</td><td>Pynix-Data <span class="tag">Data-Viz</span></td><td>Data analisis & visualisasi</td></tr>
+      <tr><td>3</td><td>Pynix-AI <span class="tag">AI</span></td><td>Proyek mini Chatbot & AI</td></tr>
+      <tr><td>4</td><td>Penjaga Pynix <span class="tag">Security</span></td><td>Password manager dengan enkripsi AES</td></tr>
+      <tr><td>5</td><td>Pynix-Web <span class="tag">Web</span></td><td>Web framework sederhana</td></tr>
+      <tr><td>6</td><td>Catatan Pynix <span class="tag">Notes</span></td><td>Catatan & markdown editor</td></tr>
+      <tr><td>7</td><td>Berita Pynix <span class="tag">API</span></td><td>Fetch & baca berita via API</td></tr>
+      <tr><td>8</td><td>Kuis Pynix <span class="tag">Game</span></td><td>Game kuis CLI/GUI</td></tr>
+      <tr><td>9</td><td>Pynix-PDF <span class="tag">PDF</span></td><td>Alat edit & gabungkan PDF</td></tr>
+      <tr><td>10</td><td>Pynix-OCR <span class="tag">OCR</span></td><td>Extract teks dari gambar</td></tr>
+      <tr><td>11</td><td>Pynix-Fit <span class="tag">Health</span></td><td>Tracker kalori & olahraga</td></tr>
+      <tr><td>12</td><td>Pynix-Kripto <span class="tag">Crypto</span></td><td>Cryptocurrency harga & konverter</td></tr>
+      <tr><td>13</td><td>Pasar Pynix <span class="tag">Sim</span></td><td>Simulasi pasar saham sederhana</td></tr>
+      <tr><td>14</td><td>Aliran Pynix <span class="tag">Stream</span></td><td>Streaming video lokal ke browser</td></tr>
+      <tr><td>15</td><td>Pynix-Cam <span class="tag">CV</span></td><td>Webcam filter real-time</td></tr>
+      <tr><td>16</td><td>Grafik Pynix <span class="tag">Viz</span></td><td>Grafik visualisasi / jaringan</td></tr>
+      <tr><td>17</td><td>Pynix-Memo <span class="tag">Notes</span></td><td>Catatan tempel digital</td></tr>
+      <tr><td>18</td><td>Peringatan Pynix <span class="tag">Util</span></td><td>Reminder otomatis</td></tr>
+      <tr><td>19</td><td>Pynix-Regex <span class="tag">Dev</span></td><td>Regex tester & visualizer</td></tr>
+      <tr><td>20</td><td>Pynix-Logger <span class="tag">Dev</span></td><td>Sistem penebangan aplikasi</td></tr>
+      <tr><td>21</td><td>Pynix-Otomatis <span class="tag">Auto</span></td><td>Auto clicker + makro recorder</td></tr>
+      <tr><td>22</td><td>Visi Pynix <span class="tag">AI</span></td><td>Deteksi objek real-time (YOLO)</td></tr>
+      <tr><td>23</td><td>Tugas Pynix <span class="tag">CLI</span></td><td>To-do list berbasis terminal</td></tr>
+      <tr><td>24</td><td>Blog Pynix <span class="tag">Web</span></td><td>Blog sederhana pakai Flask/Django</td></tr>
+      <tr><td>25</td><td>Toko Pynix <span class="tag">E-com</span></td><td>Mini e-commerce</td></tr>
+      <tr><td>26</td><td>Pynix-Drive <span class="tag">Cloud</span></td><td>Auto backup file ke Google Drive</td></tr>
+      <tr><td>27</td><td>Saham Pynix <span class="tag">Finance</span></td><td>Analisis saham dengan Pandas</td></tr>
+      <tr><td>28</td><td>Pynix-Cuaca <span class="tag">API</span></td><td>Aplikasi cuaca real-time</td></tr>
+      <tr><td>29</td><td>Pynix-Trans <span class="tag">NLP</span></td><td>Otomatis translator</td></tr>
+      <tr><td>30</td><td>Suara Pynix <span class="tag">AI</span></td><td>Voice assistant sederhana</td></tr>
+      <tr><td>31</td><td>Pynix-Dok <span class="tag">Docs</span></td><td>Generator dokumentasi otomatis</td></tr>
+      <tr><td>32</td><td>Cat Pynix <span class="tag">GUI</span></td><td>Aplikasi melukis Tkinter</td></tr>
+      <tr><td>33</td><td>Surat Pynix <span class="tag">Mail</span></td><td>Kirim email otomatis</td></tr>
+      <tr><td>34</td><td>Pynix-MusikDL <span class="tag">DL</span></td><td>Downloader musik API</td></tr>
+      <tr><td>35</td><td>Pynix-Catur <span class="tag">Game</span></td><td>Game catur dengan AI lawan</td></tr>
+      <tr><td>36</td><td>Pynix-Matematika <span class="tag">Viz</span></td><td>Visualisasi fungsi matematika</td></tr>
+      <tr><td>37</td><td>Pynix-BeritaBot <span class="tag">Bot</span></td><td>Bot berita otomatis</td></tr>
+      <tr><td>38</td><td>File Pynix <span class="tag">Util</span></td><td>Berkas penyelenggara</td></tr>
+      <tr><td>39</td><td>Pynix-Aman <span class="tag">Crypto</span></td><td>File locker terenkripsi</td></tr>
+      <tr><td>40</td><td>Pemindaian Pynix <span class="tag">Net</span></td><td>Port scanner sederhana</td></tr>
+      <tr><td>41</td><td>Pynix-StreamBot <span class="tag">Bot</span></td><td>Bot streaming mini</td></tr>
+      <tr><td>42</td><td>Arkade Pynix <span class="tag">Game</span></td><td>Koleksi game klasik (Snake, Tetris)</td></tr>
+      <tr><td>43</td><td>Pynix-Belajar <span class="tag">Edu</span></td><td>App belajar bahasa interaktif</td></tr>
+      <tr><td>44</td><td>Statistik Pynix <span class="tag">Data</span></td><td>Statistik & regresi sederhana</td></tr>
+      <tr><td>45</td><td>Pynix-Algo <span class="tag">Viz</span></td><td>Visualisasi algoritma sorting/search</td></tr>
+      <tr><td>46</td><td>Pynix-DocsX <span class="tag">Docs</span></td><td>Tools dokumen pintar</td></tr>
+      <tr><td>47</td><td>Pynix-Nexus <span class="tag">Hub</span></td><td>Proyek integrasi hub</td></tr>
+      <tr><td>48</td><td>Pynix-Oracle <span class="tag">AI</span></td><td>Peramal data sederhana (AI/NLP)</td></tr>
+      <tr><td>49</td><td>Pynix-Elysium <span class="tag">Dash</span></td><td>Multi-alat dasbor</td></tr>
+      <tr><td>50</td><td>Pynix-Phoenix <span class="tag">Finale</span></td><td>Project final, simbol kebangkitan</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  &copy; 2025 Pynix Alliance – Lisensi MIT<br>
+  Dibuat dengan <i class="fas fa-heart" style="color:#ff4d4d"></i> & Python
+</footer>
+
+<!-- Opsional: kursor kustom / partikel JS bisa ditambah di sini -->
+</body>
+</html>
